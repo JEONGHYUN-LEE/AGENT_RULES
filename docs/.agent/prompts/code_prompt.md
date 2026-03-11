@@ -12,3 +12,5 @@ If changes outside the boundary are required, stop and report instead of continu
 Update `docs/plan.md` status as you work.
 Write `docs/exec_log.md`.
 Validate changes before marking work complete.
+
+After the above is complete, perform the close steps: read and follow the instructions in `docs/.agent/prompts/close_prompt.md`.
