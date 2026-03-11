@@ -5,7 +5,7 @@ Goal: execute the approved plan faithfully.
 ## Inputs
 - `docs/task_goal.md`
 - `docs/plan.md`
-- `docs/research.md` and `docs/goal_research.md` if needed
+- `docs/research.md` if needed
 
 ## Outputs
 - code changes

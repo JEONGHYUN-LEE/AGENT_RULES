@@ -1,4 +1,4 @@
-# Initial Research Rule
+# Research Rule
 
 Build deep understanding of the entire codebase and maintain it in a single long-form file.
 

@@ -11,3 +11,10 @@ Only do work allowed for the current stage.
 First reason internally.
 Then produce the document or code.
 Do not use the final document as a substitute for thinking.
+
+## 3. Respect the project root boundary
+Treat the directory containing `docs/` as the project root.
+
+- Never read files outside this project root
+- Never inspect parent directories above this project root
+- Only use files within this project root unless explicitly instructed by the user

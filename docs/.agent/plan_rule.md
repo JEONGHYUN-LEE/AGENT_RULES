@@ -1,45 +1,31 @@
 # Planning Rule
 
-Goal: design a concrete, reviewable implementation plan for the current task.
+Goal: Deepen understanding of the task from research, then design a concrete, reviewable implementation plan in one pass.
 
 ## Inputs
 - `docs/task_goal.md`
 - `docs/research.md`
-- `docs/goal_research.md`
 
 ## Output
 - `docs/plan.md`
 
 Do not modify code.
 
+## Process
+1. **Goal analysis** (from research): interpret goal, identify relevant modules/files, current behavior, execution flow, constraints, invariants, dependencies, edge cases, risks. Go deep only where the goal requires; prefer concrete flow over high-level summary.
+2. **Plan design**: decide approach, modification boundary, steps, validation, mitigations.
+
 ## `docs/plan.md` must include
 
-1. Goal
-2. Non-goals
-3. Relevant context
-4. Design options considered
-5. Chosen approach
-6. Modification boundary
-7. Files to read before modify
-8. Constraints and invariants
-9. Step-by-step implementation plan
-10. Validation strategy
-11. Risks and mitigations
-12. Execution checklist
+1. Goal (and non-goals)
+2. Relevant context (from goal analysis; reference research, avoid re-explaining codebase)
+3. Design options considered → chosen approach
+4. **Modification boundary**: files allowed to change / small edits only / tests. Report if implementation would exceed this.
+5. Files to read before modify
+6. Constraints and invariants
+7. Step-by-step implementation plan
+8. Validation strategy
+9. Risks and mitigations
+10. Execution checklist
 
-## Modification boundary
-The plan must define which files are allowed to change.
-
-Use this structure:
-
-- Files allowed to change
-- Files allowed for small edits only
-- Tests allowed to change
-
-If implementation seems to require changes outside this boundary, that must be reported during coding.
-
-## Planning principles
-- design decisions happen here
-- keep scope bounded
-- make the plan implementable without redesign
-- avoid re-explaining the whole codebase; reference research instead
+- Keep scope bounded; make the plan implementable without redesign.
