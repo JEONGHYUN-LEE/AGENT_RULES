@@ -1,4 +1,4 @@
-Read `docs/.agent/agent_constitution.md`, `docs/research.md`, `docs/plan.md`, and `docs/exec_log.md`.
+Read `docs/.agent/rules/agent_constitution.md`, `docs/research.md`, `docs/plan.md`, and `docs/exec_log.md`.
 
 Update `docs/research.md` with any changes or new information learned during this task.
 

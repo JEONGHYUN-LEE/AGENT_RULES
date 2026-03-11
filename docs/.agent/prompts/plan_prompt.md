@@ -1,4 +1,4 @@
-Read `docs/.agent/agent_constitution.md`, `docs/.agent/plan_rule.md`, `docs/task_goal.md`, and `docs/research.md`.
+Read `docs/.agent/rules/agent_constitution.md`, `docs/.agent/rules/plan_rule.md`, `docs/task_goal.md`, and `docs/research.md`.
 
 First perform internal analysis (do not write `docs/plan.md` yet):
 - Goal interpretation, non-goals

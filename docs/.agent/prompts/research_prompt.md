@@ -1,4 +1,4 @@
-Read `docs/.agent/agent_constitution.md` and `docs/.agent/research_rule.md`.
+Read `docs/.agent/rules/agent_constitution.md` and `docs/.agent/rules/research_rule.md`.
 
 First perform internal analysis of the repository.
 Do not write `docs/research.md` yet.
