@@ -17,4 +17,11 @@ Move `docs/plan.md` and `docs/exec_log.md` and `docs/task_goal.md` into that tim
 
 Recreate `docs/task_goal.md` in the `docs/` folder. The recreated file must begin with the heading `# Task Goal` (and may include additional content as needed).
 
+Stage all changes for commit, but for `docs/` stage only `docs/commits/` (exclude the rest of docs from staging). Run:
+```
+git add -A
+git restore --staged docs/
+git add -A docs/commits/
+```
+
 Do not modify code. Perform only the above steps.
