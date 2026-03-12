@@ -1,4 +1,4 @@
-Read `docs/.agent/rules/agent_constitution.md`, `docs/.agent/rules/code_rule.md`, `docs/task_goal.md`, `docs/plan.md`, and relevant research documents.
+Read `docs/.agent/rules/agent_constitution.md`, `docs/.agent/rules/code_rule.md`, `docs/task_goal.md`, `docs/plan.md`, and all .md files under `docs/knowledge/` if needed (use index/README there to locate).
 
 First perform internal analysis of the approved plan and the target files.
 Do not modify code yet.
