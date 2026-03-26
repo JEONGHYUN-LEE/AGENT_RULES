@@ -1,4 +1,8 @@
-Read `docs/.agent/rules/agent_constitution.md`, all .md files under `docs/knowledge/`, `docs/plan.md`, and `docs/exec_log.md`.
+---
+description: 작업을 아카이빙하고 knowledge를 갱신한 뒤 커밋을 준비합니다
+---
+
+Read the agent constitution from `.claude/rules/agent-constitution.md`, all .md files under `docs/knowledge/`, `docs/plan.md`, and `docs/exec_log.md`.
 
 Update or add .md files under `docs/knowledge/` with any changes or new information learned during this task.
 
